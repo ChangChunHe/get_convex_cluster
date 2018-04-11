@@ -8,7 +8,6 @@ Python convex_clusters
 
 Those called convex clusters looks like the structures below
 ![This is a convex cluster containing 61 atoms][1]
-
   [1]: ./61_1.png
 ---
   Exmaple:
