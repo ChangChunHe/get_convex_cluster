@@ -1,13 +1,37 @@
 # This code aims to generate convex clusters 
 
-标签（空格分隔）： Python convex_clusters
+Python convex_clusters
 
 ---
 
-在此输入正文
+
 
 Those called convex clusters looks like the structures below
-![此处输入图片的描述][1]
+![This is a convex cluster containing 61 atoms][1]
 
 
-  [1]: ./61_1.png
+[1]: ./61_1.png
+---
+  Exmaple:
+```python
+import main_fun
+import pickle
+import numpy as np
+max_atom = 15
+# generate the convex cluster whose atoms are less than max_atom (including equavalent)
+lists = main_fun.all_convex_below(max_atom)
+output = open('data.pkl', 'wb')
+pickle.dump(lists, output)
+output.close()
+print('The result has been saved in' + 'data.pkl')
+# main_fun.draw_fig(lists, 'vaca_0_', len(lists))
+# main_fun.write_poscar(lists, '_vaca_0_', len(lists))
+n_start = 2
+n_end = max_atom
+max_vaca = 2
+vacancy_list = main_fun.vacan(lists, max_vaca, n_end, n_start)
+main_fun.draw_fig(vacancy_list, 'vaca_1_', len(vacancy_list))
+main_fun.write_poscar(vacancy_list, '_vaca_1_', len(vacancy_list))
+``` 
+---
+Here, using `all_convex_below` method in `main_fun` class will help you generate the convex cluster whose atoms are less than max_atom (including equavalent). using `draw_fig` method in `main_fun` will help draw theses structure.
