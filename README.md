@@ -1,5 +1,13 @@
-# get_convex_cluster
-## This code need some support txt files, which are in current direccory. Those are A.txt, struc.txt.ect
-## which is used to achieve structure recognization.
-## In example.py , I write an example to show how to use my code.
-## It can generate POSCAR and figure in png format if you want
+# This code aims to generate convex clusters 
+
+标签（空格分隔）： Python convex_clusters
+
+---
+
+在此输入正文
+
+Those called convex clusters looks like the structures below
+![此处输入图片的描述][1]
+
+
+  [1]: /home/hecc/Documents/python/convex_cluster/pic/61_1.png
