@@ -10,4 +10,4 @@ Those called convex clusters looks like the structures below
 ![此处输入图片的描述][1]
 
 
-  [1]: /home/hecc/Documents/python/convex_cluster/pic/61_1.png
+  [1]: get_convex_cluster/61_1.png
