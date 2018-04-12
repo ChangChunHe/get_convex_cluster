@@ -6,8 +6,7 @@
 
 Those called convex clusters looks like the structures below. Obviously, there will be a set of convex cluster containing 61 atoms, but how to get those structures? This code is aiming to solve the problem.
 
-![This is a convex cluster containing 61 atoms][1]
-  [1]: ./61_1.png
+![](./61_1.png)
   
   ---
   Exmaple:
